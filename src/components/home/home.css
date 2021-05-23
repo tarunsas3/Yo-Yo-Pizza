@@ -1,0 +1,64 @@
+.menu-container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../images/pizza-3.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    max-height: 100%;
+    padding: 0 2rem;
+    width: 650px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 650px){
+    .menu-items{width: 100%;}
+}
+
+.menu-heading{
+    font-size: clamp(2.5rem, 10vw, 5rem);
+    margin-bottom: 1rem;
+    box-shadow: 3px 5px #e9ba23;
+    letter-spacing: 3px;
+    }
+
+.menu-paragraph{
+    font-size: clamp(2rem, 2.5vw, 3rem);
+    margin-bottom: 2rem;
+}
+
+.menu-button{
+    font-size: 1.4rem;
+    padding: 1rem 4rem;
+    border: none;
+    background: #e31837;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+
+.menu-button:hover{
+    background: #ffc500;
+      transition: 0.2s ease-out;
+      cursor: pointer;
+      color: #000;
+}
+
+.global-styles {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+}
